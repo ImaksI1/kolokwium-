@@ -1,18 +1,50 @@
 #dodacZadanie {
     display: flex;
     flex-direction: column;
-    width: 240px;
+    width: 300px;
     gap: 10px;
     align-items: center;
     border: 1px solid black;
     height: 930px;
 }
 
+#myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    
+}
+
+#myUl {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.p1 {
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 4px;
+    width: 100px;
+}
+
+.p2 {
+    align-items: center;
+    border: 1px solid black;
+    padding: 4px;
+    width: 79vmax;
+}
+
 #container {
     display: flex;
-    gap: 10px
+    gap: 10px;
 }
 
 #listaZadan {
-    width:100vmax;
+    width: 100vmax;
+    border: 1px solid black;
 }
